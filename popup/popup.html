@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TopsHelper</title>
+  <style>
+    body {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    User:
+    <span id="uid">0</span> |
+    <span id="realname">Unkown</span> |
+    <span id="grade">Unkown</span>
+    <a href="https://www.topscoding.com/home/account" target="_blank">修改</a>
+  </div>
+  <div>
+    Rank:
+    <span id="rank">-</span>
+    (RP:
+    <span id="rp">-</span> |
+    RK:
+    <span id="rk">-</span>)
+  </div>
+  <div>Coin:<span id="coin">0</span></div>
+  <hr>
+  <details id="tokens">
+    <summary>Tokens: <span id="token-num">0</span></summary>
+    <div id="yacs-info">
+      <a href="https://iai.sh.cn" target="_blank">iai.cn</a>: 
+      AC:<span id="yacs-ac">0</span> |
+      <span id="iai-token">Unkown</span>
+    </div>
+    <div id="atcoder-info">
+      <a href="https://atcoder.jp" target="_blank">atcoder: </a>
+      AC:<span id="atcoder-ac">0</span> |
+      <span id="atcoder-cookie">Unkown</span>
+    </div>
+    <div id="luogu-info">
+      <a href="https://www.luogu.com.cn" target="_blank">luogu.com: </a>
+      AC:<span id="luogu-ac">0</span> |
+      <span id="luogu-cookie">Unkown</span>
+    </div>
+    <div id="cf-info">
+      <a href="https://codeforces.com" target="_blank">codeforces: </a>
+      AC:<span id="cf-ac">0</span> |
+      <span id="cf-cookie">Unkown</span>
+    </div>
+  </details>
+  <details id="my-classes">
+    <summary>我的班级</summary>
+    <ul id="class-list"></ul>
+  </details>
+  <script src="popup.js"></script>
+</body>
+</html>
